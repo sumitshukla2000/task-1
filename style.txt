@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Gabarito&family=Open+Sans:wght@400;700&family=Poppins&family=Roboto:wght@300&display=swap');@import url('https://fonts.googleapis.com/css2?family=Borel&family=Gabarito&family=Open+Sans:wght@400;700&family=Poppins&family=Roboto:wght@300&family=Young+Serif&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+:root{
+    --medium-font: 'Gabarito', cursive;
+    --primary-font:'Roboto', sans-serif;
+    --main-font:'Young Serif', serif;
+    --dark-green:#097969;
+    --light-green:#00A36C;
+    --dark-gray:#A9A9A9;
+}
