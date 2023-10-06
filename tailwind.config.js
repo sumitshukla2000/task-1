@@ -5,7 +5,7 @@ module.exports = {
     fontFamily:{
       'main' : ['Young Serif'],
       'primary':['Roboto'],
-      'avg':['Gabarito']
+      'avg':['Poppins']
     },
     screens:{
       'sm':'540px',
