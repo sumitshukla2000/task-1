@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digital Marketing</title>
     <link rel="stylesheet" href="../dist/output.css">
+    <!-- fontawesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -21,16 +22,16 @@
                 <img src="./assets/D.png" class="w-12" alt="logo">
             </div>
             <!-- items -->
-            <div class="hidden font-semibold px-4 text-lg md:block">
-                <a href="#" class="no-underline px-4">Home</a>
-                <a href="#" class="no-underline px-4">Service</a>
-                <a href="#" class="no-underline px-4">Blog</a>
-                <a href="#" class="no-underline px-4">Contact</a>
+            <div class="hidden font-avg font-semibold px-4 text-lg md:block">
+                <a href="#" class="no-underline hover:text-emerald-500 px-4">Home</a>
+                <a href="#" class="no-underline px-4 hover:text-emerald-500">Service</a>
+                <a href="#" class="no-underline px-4 hover:text-emerald-500">Blog</a>
+                <a href="#" class="no-underline px-4 hover:text-emerald-500">Contact</a>
             </div>
             <!-- button -->
             <div class="px-2">
                 <button
-                    class="hidden px-4 py-2 p-2 border-emerald-700 border-2 rounded-md text-emerald-700 md:block">Hire
+                    class="hidden px-4 py-2 p-2 border-emerald-700 border-2 rounded-md text-emerald-700 duration-300 hover:shadow-xl hover:bg-emerald-700 hover:text-white md:block">Hire
                     Us</button>
             </div>
             <!-- burger -->
@@ -51,7 +52,7 @@
                 visibility,
                 higher conversation, and lasting impact with our proven SEO techniques.</p>
             <div class="mx-auto grid place-items-center md:block">
-                <button class="text-center text-white m-2 px-6 py-2 bg-emerald-700 rounded-md">Get Started</button>
+                <button class="text-center text-white m-2 px-6 py-2 bg-emerald-700 rounded-md duration-300 hover:shadow-xl hover:bg-emerald-500">Get Started</button>
             </div>
         </section>
         <!-- img section -->
@@ -71,16 +72,13 @@
             <div class="py-4 flex flex-col flex-wrap items-center md:items-start md:justify-around md:flex-row ">
                 <!-- item-1 -->
                 <div class="overflow-hidden hover:scale-105 duration-300 cursor-pointer m-2 md:mx-4">
-                    <img src="./assets/online.jpg" class="mx-auto rounded-lg w-64 hover:shadow-xl"
-                        alt="marketing">
+                    <img src="./assets/online.jpg" class="mx-auto rounded-lg w-64 hover:shadow-xl" alt="marketing">
                     <h2 class="text-xl text-black font-semibold font-avg text-center p-6">Online Presence
                     </h2>
                 </div>
                 <!-- item-2 -->
-                <div
-                    class="hidden overflow-hidden hover:scale-105 duration-300 cursor-pointer m-2 md:mx-4 md:block">
-                    <img src="./assets/trust.jpg" class="rounded-lg mx-auto w-64 hover:shadow-xl"
-                        alt="e-com">
+                <div class="hidden overflow-hidden hover:scale-105 duration-300 cursor-pointer m-2 md:mx-4 md:block">
+                    <img src="./assets/trust.jpg" class="rounded-lg mx-auto w-64 hover:shadow-xl" alt="e-com">
                     <h2 class="text-xl text-black font-semibold  font-avg text-center p-6">Credebility and Trust</h2>
                 </div>
                 <!-- item-3 -->
@@ -179,17 +177,17 @@
     <section class="container  mx-auto p-8">
         <h1 class="px-2 text-2xl text-center w-auto font-main md:text-3xl">Stay In Touch</h1>
         <!-- form -->
-        <div class="bg-gray-200  mt-4 p-2 font-avg drop-shadow-xl md:p-12">
+        <div class="mx-auto bg-gray-200 max-w-xl mt-4 p-2 font-avg drop-shadow-xl md:p-12">
             <form>
                 <!-- name -->
-                <div class="py-3 mx-auto md:w-1/2">
+                <div class="py-3 mx-auto md:w-full">
                     <label class="block py-2" for="name">Name</label>
                     <input type="text" id="name"
                         class="rounded-lg border border-slate-300 block outline-none p-2 w-full invalid:border-red-500 invalid:text-red-500 md:p-3"
                         placeholder="Your Name">
                 </div>
                 <!-- email -->
-                <div class="py-3 mx-auto md:w-1/2">
+                <div class="py-3 mx-auto md:w-full">
                     <label class="block py-2" for="name">Email</label>
                     <input type="email" id="name"
                         class="rounded-lg border border-slate-300 block  focus:outline-none p-2 w-full invalid:border-pink-500 invalid:text-red-500 md:p-3"
@@ -202,6 +200,37 @@
             </form>
         </div>
     </section>
-</body>
 
+    <!-- contact section -->
+    <section class="space-y-4">
+        <h1 class="text-3xl font-main text-center p-4">Contacts</h1>
+        <!-- contacts -->
+        <div class="flex py-8  text-center flex-col justify-evenly font-avg md:flex-row">
+            <!-- contact-1 -->
+            <div class="px-12 py-6 border-r-2 inline-block md:px-28">
+                <i class="text-6xl py-2 fa-solid fa-phone text-emerald-500"></i>
+                <h1 class="text-lg font-bold text-gray-600">Telephone</h1>
+                <p class="text-sm text-gray-500 whitespace-nowrap md:text-md">+91 9143XXXXXX</p>
+                <p class="text-sm text-gray-500 whitespace-nowrap md:text-md">+91 9143XXXXXX</p>
+            </div>
+            <!-- contact-2 -->
+            <div class="px-12 py-6 inline-block">
+                <i class="py-2 text-6xl fa-solid fa-location-dot text-emerald-500"></i>
+                <h1 class="text-lg font-bold text-gray-600">Our Mail</h1>
+                <p class="text-sm text-gray-500 whitespace-nowrap md:text-md">help@s.com</p>
+                <p class="text-sm text-gray-500 whitespace-nowrap md:text-md">help@s.com</p>
+            </div>
+            <!-- contact-3 -->
+            <div class=" px-12 py-6 border-l-2 inline-block md:px-28">
+                <i class="py-2 text-6xl fa-regular fa-envelope text-emerald-500"></i>
+                <h1 class="text-lg font-bold text-gray-600">Location</h1>
+                <p class="text-sm max-w-xs break-words text-gray-500 md:text-md">Govind Puri, New Delhi</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="p-12 bg-gray-300">
+        <p class="text-xl text-center font-main">Created by <a href="https://github.com/sumitshukla2000" class="text-emerald-700 duration-300 hover:text-emerald-500">Sumit Shukla &#128522;</a></p>
+    </footer>
+</body>
 </html>
